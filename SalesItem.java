@@ -71,6 +71,8 @@ public class SalesItem
         
         comments.add(new Comment(author, text, rating));
         return true;
+    
+            
     }
     
     /**
@@ -182,3 +184,9 @@ public class SalesItem
         }
     }
 }
+/*
+ *14) new method that are created are setUp and tearDown
+ *15) it returned false if adding the same autor with a diifrent comment
+ *16) while testing the 0 return true whil anything 6 or above return false
+ *17)
+ */
